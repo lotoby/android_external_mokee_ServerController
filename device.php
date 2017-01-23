@@ -844,6 +844,12 @@ $hardware_info = array(
                      'battery' => '2900 mAh',
                      'display' => '5.0 inch, 1920x1080 pixel(441ppi)',
                      'cpuarch' => 'ARM'),
+   'huashan' => array('cpu' => 'Qualcomm® Snapdragon™ MSM8960T',
+                      'ram' => 1GB'
+                      'rom' => 8G/16GB',
+                      'battery' => '2370 mAh/2300 mAh',
+                      'display' => '4.6 inch, 1280x720 pixel(319ppi)',
+                      'cpuarch' => 'ARM'),
 );
 
 foreach ($devices_info as $k => $val) {
